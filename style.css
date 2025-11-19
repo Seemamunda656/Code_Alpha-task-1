@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #1877f2;
+}
+
+.profile input {
+  padding: 5px;
+}
+
+.create-post {
+  margin-top: 15px;
+}
+
+#create-post textarea, textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  background: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #145dbf;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.post-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.like-comment {
+  margin-top: 8px;
+}
+
+.comment-section {
+  margin-top: 8px;
+}
+
+.comment-section input {
+  width: 80%;
+  padding: 5px;
+}
+
+.comment {
+  font-size: 0.9em;
+  background: #f0f2f5;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
